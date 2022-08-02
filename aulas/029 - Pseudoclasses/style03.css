@@ -1,0 +1,21 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    color: aqua;
+}
+
+a:visited{
+    color: red;
+    font-weight: bold;
+}
+
+a:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+a:active{
+    color: gold;
+}

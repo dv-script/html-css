@@ -1,0 +1,19 @@
+div{
+    background: fixed rgb(123, 255, 255);
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    display: inline-block;
+}
+
+div:hover{
+    background-color: gold;
+}
+
+
+/*
+
+: = pseudo-class
+
+*/

@@ -1,0 +1,24 @@
+a::after{
+    content: ' [link]';
+    text-decoration: none;
+    font-weight: normal;
+    color: darkgray;
+}
+
+a::before{
+    content: '« ';
+    text-decoration: none;
+    font-weight: normal;
+    color: darkgray;
+}
+
+a:hover{
+    color: gold;
+}
+
+
+/*
+
+:: = pseudo-element
+
+*/

@@ -1,0 +1,38 @@
+p{
+    font-size: 15px;
+}
+
+/*
+1em = 1 x 16px = 16px
+2em = 2 x 16px = 32px
+3em = 3 x 16px = 48px
+...
+*/
+
+.absoluto{
+    font-size: 2em;
+}
+
+/*
+Unidade relativa que depende do root
+1rem = 1 x root 
+2rem = 2 x root
+3rem = 3 x root
+...
+*/
+
+.relativo{
+    font-size: 2rem;
+}
+
+.div1{
+    background-color: aliceblue;
+    height: 100vh;
+    width: 100vw;
+}
+
+.div2{
+    background-color: chocolate;
+    height: 50vh;
+    width: 50vw;
+}

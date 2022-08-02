@@ -1,0 +1,24 @@
+*{
+    margin: 0%;
+}
+
+.menu{
+    background: blue;
+    height: 100px;
+    color: white;
+    font-size: 5rem;
+}
+
+.banner{
+    background-color: rgb(255, 0, 0);
+    min-height: calc(100vh - 100px);
+    max-height: 10000px;
+    overflow: scroll;
+}
+
+.exemplo{
+    background-color: greenyellow;
+    height: 20rem;
+    width: 10rem;
+    overflow: scroll;
+}

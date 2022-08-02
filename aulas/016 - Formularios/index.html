@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+    <style>
+        body{
+            background-color: aliceblue;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+        }
+
+    </style>
+</head>
+
+<body> <!-- formspree.io - backend -->
+    <form action="">
+        
+        <!-- Tipo texto -->
+        <label for="firstName">First Name</label>
+        <input
+        type="text"
+        name="firstName"
+        id="" 
+        value=""
+        placeholder="Luis da Silva"/>
+        <br><br>
+
+        <!-- Tipo senha -->
+        <label for="password">Password</label>
+        <input type="password" name="password"/>
+        <br><br>
+
+        <!-- Tipo email - Obrigatório ter @ -->
+        <label for="email">Email</label>
+        <input type="email" name="email" placeholder="xxx@xxxx.com"/>
+        <br><br>
+
+        <!-- Formas de enviar -->
+        <button type="submit">
+        Submit
+        </button>
+
+        <!-- Text Area -->
+        <p>Descrição</p>
+        <textarea name="" id="" cols="50" rows="5"></textarea>
+
+        <!-- Radio buttons -->
+        <p>Qual é a sua linguagem preferida?</p>
+        <input type="radio" name="linguagem" id="" value="javascript" checked/> JavaScript
+        <input type="radio" name="linguagem" id="" value="python"/> Python
+        <input type="radio" name="linguagem" id="" value="php"/> PHP
+        <br><br>
+
+        <!-- CheckBox -->
+        <p>Qual é a sua linguagem preferida?</p>
+        <input type="checkbox" name="linguagem" id="" value="javascript"/> JavaScript
+        <input type="checkbox" name="linguagem" id="" value="python"/> Python
+        <input type="checkbox" name="linguagem" id="" value="php"/> PHP
+        <br><br>
+
+        <!-- Select Inputs-->
+        <p>Selecione sua linguagem preferida:</p>
+        <select name="linguagem" id="">
+            <option value="javascript">JavaScript</option>
+            <option value="py">Python</option>
+            <option value="php">PHP</option>
+        </select>
+
+    </form>
+</body>
+</html>

@@ -1,0 +1,38 @@
+div{
+    background-color: aliceblue;
+    color: black;
+    border: 3px solid black;
+}
+
+body{
+    background-color: cornsilk;
+}
+
+.orange{
+    color: orange;
+}
+
+.text1{
+    color: white;
+    font-style: italic;
+}
+
+.text2{
+    color: white;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+#capitalize{
+    text-transform:capitalize ;
+}
+
+span{
+    font-weight: bold;
+}
+
+*{
+    font-family: cursive;
+}

@@ -1,0 +1,36 @@
+#title{
+    background-color: black;
+    color: white;
+}
+
+#text{
+    background-color: cornflowerblue;
+}
+
+#footer{
+    background-color: chocolate;
+}
+
+#first{
+    background-color: rgb(255, 255, 255);
+}
+
+/*
+
+# = id
+. = class
+
+*/
+
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+.blue{
+    color: blue
+}
+
+.green{
+    color: green;
+}

@@ -1,0 +1,22 @@
+h1{
+    color: brown;
+}
+h2{
+    color: blueviolet;
+}
+p{
+    color: darkblue;
+}
+span{
+    color: red;
+    background-color: black;
+}
+button{
+    background: green;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    padding: 4px 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+}

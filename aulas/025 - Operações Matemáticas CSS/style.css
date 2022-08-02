@@ -1,0 +1,15 @@
+*{
+    margin: 0%;
+}
+
+.menu{
+    background: blue;
+    height: 100px;
+    color: white;
+    font-size: 5rem;
+}
+
+.banner{
+    height: calc(100vh - 100px);
+    background-color: rgb(255, 0, 0);
+}

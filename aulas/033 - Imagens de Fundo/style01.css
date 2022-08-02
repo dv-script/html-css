@@ -1,0 +1,29 @@
+h1{
+    background-image: url('https://gustavoguanabara.github.io/html-css/imagens/mascote.png');
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+}
+
+div.bloco{
+    background-image: url(imagens/pattern004.jpg);
+    height: 200px;
+    border: 1px solid black;
+    margin: 15px;
+    border-radius: 10px;
+}
+
+div#q1{
+    background-position: left top;
+}
+
+div#q2{
+    background-position: left center;
+}
+
+div#q3{
+    background-position: right bottom;
+}
+
+div#q4{
+    background-position: center center;
+}
