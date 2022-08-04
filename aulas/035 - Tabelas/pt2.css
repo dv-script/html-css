@@ -1,0 +1,22 @@
+table{
+    border-collapse: collapse;
+}
+
+td.numero{
+    text-align: right;
+    font-weight: bolder;
+}
+
+tr.linha{
+    background-color: lightgray;
+}
+
+td{
+    width: 200px;
+    height: 50px;
+    border: 1px solid black;
+    vertical-align: middle;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+}

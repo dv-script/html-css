@@ -1,0 +1,31 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    background-color: lightgray;
+    color: black;
+    text-shadow: 0px 1px 1.5px;
+    margin: auto;
+    text-align: center;
+    border: 1px solid black;
+    max-width: 400px;
+    border-radius: 10px
+}
+
+table{
+    width: 400px;
+    border-collapse: collapse;
+    margin: auto;
+    margin-top: 30px;
+}
+
+tr.linha{
+    background-color: lightgray;
+}
+
+td{
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}

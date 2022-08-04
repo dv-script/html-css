@@ -1,0 +1,57 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table{
+    width: 500px;
+    border-collapse: collapse;
+    position: relative;
+}
+
+.number{
+    text-align: right;
+}
+
+#sum{
+    font-weight: bold;
+}
+
+#pop{
+    width: 50px;
+}
+
+thead, tfoot{
+    background-color: rgb(65, 65, 65);
+    color: white;
+}
+
+tr > th{
+    position: sticky;
+    top: -1px;
+    background-color: rgb(65, 65, 65);
+}
+
+/* 
+tbody > tr:nth-child(2n)
+*/
+
+tbody > tr:nth-child(even){
+    background-color: white;
+}
+
+tbody > tr:nth-child(odd){
+    background-color: lightgray;
+}
+
+
+td, th{
+    border: 1px solid rgb(0, 0, 0);
+    padding: 10px;
+}
+
+caption{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px;
+    background-color: rgb(212, 212, 212);
+}

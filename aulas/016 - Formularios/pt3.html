@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários pt3</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Teste de Formulário</h1>
+    <form action="cadastro.php" method="post">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <p>
+                <label for="iname">Nome Completo</label>
+                <input type="text" name="name" id="iname" maxlenght="30" placeholder="João Luiz Queiroz" autocomplete="name" required>
+            </p>
+            <p>
+                <label for="imedia">Média</label>
+                <input type="number" name="media" id="imedia" min="0" max="10" placeholder="0 a 10" step="0.25" required>
+            </p>
+            <p>
+                <label for="iperiodo">Período</label>
+                <input type="month" name="periodo" id="iperiodo" value="2022-08" required>
+            </p>
+            <p>
+                <label for="idia">Dia da Avaliação</label>
+                <input type="date" name="dia" id="idia"  required>
+            </p>
+            <p>
+                <label for="itime">Horário da Prova</label>
+                <input type="time" name="time" id="itime" required>
+            </p>
+            <p>
+                <label for="iemail">Email</label>
+                <input type="email" name="email" id="iemail" autocomplete="email" placeholder="xxx@xxx.com" required>
+            </p>
+            <p>
+                <label for="itel">Telefone</label>
+                <input type="tel" name="tel" id="itel" autocomplete="tel" pattern="^\(\d{2}\)\d{4,5}-\d{4}$" required>
+            </p>
+            <p>
+                <label for="icor">Cor Favorita</label>
+                <input type="color" name="cor" id="icor">
+            </p>
+            <p>
+                <label for="iest">Estado em que Nasceu</label>
+                <select name="est" id="iest">
+                    <option value="">-----Escolha-----</option>
+                    <optgroup label="Região Sudeste">
+                        <option value="MG">Minas Gerais</option>
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="SP">São Paulo</option>
+                    </optgroup>
+
+                    <optgroup label="Região Nordeste">
+                        <option value="MA">Maranhão</option>
+                        <option value="BA">Bahia</option>
+                    </optgroup>
+                </select>
+            </p>
+            <p>
+                <label for="iprof">Profissão</label>
+                <input type="text" name="prof" id="iprof" list="lstprof">
+                <datalist id="lstprof">
+                    <option>Mecânico</option>
+                    <option>Médico</option>
+                    <option>Engenheiro</option>
+                </datalist>
+            </p>
+            <p>
+                <label for="imsg">Mensagem</label><br>
+                <textarea name="msg" id="imsg" cols="30" rows="20"></textarea>
+            </p>
+            <p>
+                <label for="iavaliaçao">Nível de Satisfação</label>
+                <input type="range" name="avaliaçao" id="iavaliaçao" min="1" max="5">
+            </p>
+            <p>
+                <label for="ifile">Foto de Perfil</label>
+                <input type="file" name="file" id="ifile" >
+            </p>
+        </fieldset>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
